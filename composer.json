@@ -1,0 +1,13 @@
+{
+    "name": "lcarr/command-runner",
+    "description": "Command runner for cron jobs",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lcarr\\CommandRunner\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
